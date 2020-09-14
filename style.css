@@ -1,0 +1,13 @@
+.container .row .col {
+  display: flex;
+}
+.container .row .col .box {
+  height: 200px;
+  background-color: silver;
+  text-align: center;
+  flex: 1;
+  margin: 5px;
+}
+.container .row .col div:nth-last-child(odd) {
+  background-color: darkmagenta;
+}
